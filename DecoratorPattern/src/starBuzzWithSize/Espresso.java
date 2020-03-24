@@ -3,22 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DecoratorPattern;
+package starBuzzWithSize;
 
 /**
  *
  * @author Ominext
  */
-public class DarkRoast extends Beverage{
+public class Espresso extends Beverage{
 
-    public DarkRoast()
+    public Espresso()
     {
-        description = "Most Excellent Dark Roast";
+        description = "Espresso";
     }
     
     @Override
     public double cost() {
-        return .99;
+        return 1.99;
     }
     
 }
